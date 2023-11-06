@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://bigota.d.miui.com/20.4.27/miui_MIMIX3_20.4.27_8f7879221b_10.0.zip
+  ROM_URL: https://113-0-67-84.pd1.123pan.cn:30443/download-cdn.123pan.cn/123-328/c7c01796/1812056964-0/c7c01796112fcf71e76ed98ba1391148/c-m11?v=5&t=1699323106&s=16993231063ddc5826f75c58bafd20ce5f7207cb06&r=H81KWG&bzc=1&bzs=1816765723&filename=Xiaomi+Civi+1S_hylz_OS1.0.23.10.25.DEV_14_8ba1391148.zip&x-mf-biz-cid=3051e9d4-b2a4-422c-b3ec-d70a3e92362e-584000&auto_redirect=0&xmfcid=9de6e0e8-d179-46b4-ae1f-bcf24e002d57-1-50111d3b1
   ROM_NAME: MIUI
   BUILD_TYPE: ab
   TZ: Asia/Shanghai
@@ -33,7 +33,7 @@ jobs:
             sudo -E apt-get -qq install git wget
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/erfanoabdi/ErfanGSIs.git ErfanGSIs
+         run: git clone --recurse-submodules https://githubfast.com/erfanoabdi/ErfanGSIs.git ErfanGSIs
          
        - name: Fix exit
          run: |
